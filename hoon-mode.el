@@ -268,7 +268,7 @@ be highlighted as runes.")
     (,hoon-font-lock-symbols-rx . font-lock-keyword-face)
 
     ;; Highlights all other runes in other contexts.
-    (,hoon-font-lock-runes-rx . font-lock-constant-face)
+    (,hoon-font-lock-runes-rx . font-lock-keyword-face)
     (,hoon-font-lock-preprocessor-rx . font-lock-preprocessor-face)
     (,hoon-font-lock-zapzap-rx . font-lock-warning-face)
 
