@@ -233,7 +233,7 @@ be highlighted as runes.")
 (defvar hoon-font-lock-keywords
   `(
     (,hoon-font-lock-arm-declarations-rx ;; "++  arm"
-     (1 font-lock-constant-face)
+     (1 font-lock-keyword-face)
      (2 font-lock-function-name-face))
     (,hoon-font-lock-face-mold-old-rx    ;; name/mold
      (1 font-lock-variable-name-face)
